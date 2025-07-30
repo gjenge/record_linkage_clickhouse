@@ -1,6 +1,6 @@
 
 # Record Linkage in Clickhouse
-Small personal project created to test ClickHouse's ability to perform record linkage on tables with populated by hundereds of millions of rows
+Small personal project created to test ClickHouse's ability to perform record linkage on tables populated by hundereds of millions of rows
 
 ## Overview
 Given two  datasets (each containing **100 million individuals**), the goal is to link records that likely refer to the same person, based on approximate name matching using a **Soundex-based grouping strategy**.

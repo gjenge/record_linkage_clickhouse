@@ -9,16 +9,16 @@ ClickHouse is used as data engine.
 ## Structure
 ```bash
 project
-├── data 								# here will be generated the files
+├── data # here will be generated the files
 │   ├── dataset_a_fake.csv
 │   └── dataset_b_fake.csv
 └── script
     ├── py
-    │   └── generateRandomData.py 		# Generate fake datasets using Faker + multiprocessing
+    │   └── generateRandomData.py # Generate fake datasets using Faker + multiprocessing
     └── sh_sql
-        ├── batchJoin.sh 				# the record linkage script
-        ├── initialSetup.sh 			# setup of the database
-        └── loadDataset.sh 				# loads data into the raw tables, then proceeds to calculate their index in a final table
+        ├── batchJoin.sh # the record linkage script
+        ├── initialSetup.sh # setup of the database
+        └── loadDataset.sh 	# loads data into the raw tables, then proceeds to calculate their index in a final table
 ```
 		
 ## How it works

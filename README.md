@@ -7,6 +7,7 @@ Given two  datasets (each containing **100 million individuals**), the goal is t
 ClickHouse is used as data engine.
 
 ## Structure
+```bash
 project
 ├── data 								# here will be generated the files
 │   ├── dataset_a_fake.csv
@@ -18,6 +19,7 @@ project
         ├── batchJoin.sh 				# the record linkage script
         ├── initialSetup.sh 			# setup of the database
         └── loadDataset.sh 				# loads data into the raw tables, then proceeds to calculate their index in a final table
+```
 		
 ## How it works
 

@@ -18,7 +18,7 @@ project
     └── sh_sql
         ├── batchJoin.sh # the record linkage script
         ├── initialSetup.sh # setup of the database
-        └── loadDataset.sh 	# loads data into the raw tables, then proceeds to calculate their index in a final table
+        └── loadDataset.sh # loads data into the raw tables, then proceeds to calculate their group key in a final table
 ```
 		
 ## How it works
